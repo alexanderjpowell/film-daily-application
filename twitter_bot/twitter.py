@@ -5,10 +5,10 @@ import requests
 import json
 import datetime
 
-consumer_key = "V5FNhKq8oenfINn8KiKBdjYbQ"
-consumer_secret = "P2PINUIxMUjCwZ2jrMeKzoitkhfizNqFHcDBf5M5L9IjgAgknQ"
-access_token = "1010519805101830144-XPPv6brzyJTQ4AG80q50atj0JlLba7"
-access_token_secret = "T7V0QtLrQ5DId2TxiqBq0iMOuyykeWpBS4KG0IXaMHMMa"
+consumer_key = "<consumer_key>"
+consumer_secret = "<consumer_secret>"
+access_token = "<access_token>"
+access_token_secret = "<access_token_secret>"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -17,7 +17,7 @@ api = tweepy.API(auth)
 
 url = "https://api.apixu.com/v1/current.json?"
 params = {
-	"key" : "f73a65f9b9b94f009de144318192202",
+	"key" : "<api_key>",
 	"q" : "Richmond"
 }
 

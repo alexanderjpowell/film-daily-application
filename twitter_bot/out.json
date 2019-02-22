@@ -1,0 +1,39 @@
+{
+   "location":{
+      "name":"Richmond",
+      "region":"Virginia",
+      "country":"United States of America",
+      "lat":37.55,
+      "lon":-77.46,
+      "tz_id":"America/New_York",
+      "localtime_epoch":1550846913,
+      "localtime":"2019-02-22 9:48"
+   },
+   "current":{
+      "last_updated_epoch":1550846708,
+      "last_updated":"2019-02-22 09:45",
+      "temp_c":6.7,
+      "temp_f":44.1,
+      "is_day":1,
+      "condition":{
+         "text":"Light rain",
+         "icon":"//cdn.apixu.com/weather/64x64/day/296.png",
+         "code":1183
+      },
+      "wind_mph":4.3,
+      "wind_kph":6.8,
+      "wind_degree":60,
+      "wind_dir":"ENE",
+      "pressure_mb":1028.0,
+      "pressure_in":30.9,
+      "precip_mm":0.5,
+      "precip_in":0.02,
+      "humidity":85,
+      "cloud":100,
+      "feelslike_c":5.4,
+      "feelslike_f":41.8,
+      "vis_km":11.0,
+      "vis_miles":6.0,
+      "uv":2.0
+   }
+}
